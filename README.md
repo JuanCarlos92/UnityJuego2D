@@ -36,7 +36,7 @@ Pixel Jump es un juego de plataformas 2D desarrollado en "Unity", diseñado para
 
 Clona el repositorio:
 
-git clone https://github.com/tuusuario/PixelJump.git
+git clone https://github.com/JuanCarlos92/Juego2D_Plataforma.git
 
 Abre el proyecto en "Unity."
 
