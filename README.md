@@ -30,7 +30,7 @@ Pixel Jump es un juego de plataformas 2D desarrollado en **Unity**, diseñado pa
 
 ## Capturas de pantalla
 
-
+![Texto alternativo](img/character.png)
 
 ## Instalación y Ejecución
 
