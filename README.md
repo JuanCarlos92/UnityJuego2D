@@ -1,6 +1,6 @@
-# Pixel Jump
+# Pixel2D
 
-Pixel Jump es un juego de plataformas 2D desarrollado en **Unity**, diseñado para dispositivos **Android**. El objetivo del juego es ascender saltando entre plataformas, evitando enemigos y superando desafíos a medida que la velocidad de la pantalla aumenta.
+Pixel2D es un juego de plataformas 2D desarrollado en **Unity**, diseñado para dispositivos **Android**. El objetivo del juego es ascender saltando entre plataformas, evitando enemigos y superando desafíos a medida que la velocidad de la pantalla aumenta.
 
 ## Características
 
@@ -36,7 +36,7 @@ Pixel Jump es un juego de plataformas 2D desarrollado en **Unity**, diseñado pa
 
 Clona el repositorio:
 
-git clone https://github.com/JuanCarlos92/Pixel-Jumps.git
+git clone https://github.com/JuanCarlos92/Pixel2D.git
 
 Abre el proyecto en **Unity.**
 
