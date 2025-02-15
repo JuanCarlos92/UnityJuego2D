@@ -10,7 +10,7 @@ Pixel2D es un juego de plataformas 2D desarrollado en **Unity**. El objetivo del
 
 🎮 **Menús y pantalla de Game Over**
 
-🦠 **Enemigos en el nivel y monedas que recoger **
+🦠 **Enemigos en el nivel y monedas que recoger**
 
 ## Mecánicas de Juego
 
