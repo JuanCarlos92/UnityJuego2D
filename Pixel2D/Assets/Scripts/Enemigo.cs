@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemigo : MonoBehaviour
 {
     public float vida;
+    public float dañoAlJugador;
     private Animator animator;
 
     private void Start()
@@ -24,14 +25,14 @@ public class Enemigo : MonoBehaviour
     private void Muerte()
     {
         animator.SetTrigger("Muerte");
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<CombateJugador>().TomarDaño(20, other.GetContact(0).normal);
+            other.gameObject.GetComponent<CombateJugador>().TomarDaño(dañoAlJugador, other.GetContact(0).normal);
 
         }
     }
