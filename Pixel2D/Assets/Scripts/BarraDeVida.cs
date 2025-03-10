@@ -16,6 +16,7 @@ public class BarraDeVida : MonoBehaviour
     }
     public void CambiarVidaActual(float cantidadVida)
     {
+        Debug.Log("Cambiando vida actual: " + cantidadVida);
         slider.value = cantidadVida;
     }
 

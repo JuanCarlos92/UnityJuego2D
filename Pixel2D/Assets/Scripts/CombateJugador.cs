@@ -24,7 +24,7 @@ public class CombateJugador : MonoBehaviour
     public void TomarDaño(float daño)
     {
         vida -= daño;
-        barraDeVida.CambiarVidaActual(vida);
+        
 
         if (vida > 0)
         {
@@ -46,7 +46,7 @@ public class CombateJugador : MonoBehaviour
     public void TomarDaño(float daño, Vector2 posicion)
     {
         vida -= daño;
-
+        barraDeVida.CambiarVidaActual(vida);
         if (vida > 0)
         {
             animator.SetTrigger("Daño");
